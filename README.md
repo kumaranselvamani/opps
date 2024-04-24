@@ -33,3 +33,12 @@ Setter methods (setName(name), setAge(age), and setGender(gender)) allow updatin
 3. An instance of the Person class is created with the name “kumaran”, age 30, and gender “male”.
 We log the person’s details (using toString()).
 The age is then changed to 28, and the updated details are logged.
+
+# uberPrice class
+
+1. The UberPriceCalculator class has two properties: baseFare and costPerKm.
+The constructor initializes these properties with the provided values.
+The calculatePrice(distanceInKm) method calculates the total price for an Uber ride based on the distance traveled.
+2. An instance of the UberPriceCalculator class is created with a base fare of 50 and a cost of 10 per kilometer.
+We calculate the price for a 5 km Uber ride using the calculatePrice() method.
+The result is logged to the console.
